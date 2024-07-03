@@ -1,5 +1,5 @@
 function search() {
-	const apiKey = 'AIzaSyCw1N91nJ5leWXcGPBLVFD1hzQxlTKgEDU';  
+	const apiKey = '';  
 	const searchEngineId = 'c6d5829d601784133';  
 	const query = document.getElementById('searchInput').value;
 
