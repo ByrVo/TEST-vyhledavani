@@ -1,0 +1,46 @@
+
+  
+  input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 40%;
+  }
+  
+  button {
+    
+    border-radius: 20px; 
+    margin-left: 10px; 
+    padding: 20px 25px; 
+    cursor: pointer; 
+    background-image: url('pngegg.png'); 
+    background-size: 25px 25px; 
+    background-repeat: no-repeat; 
+    background-position: 12px ;
+    padding-top: 25px; 
+    
+
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 36px; 
+    font-weight: bold; 
+    color: #333; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    letter-spacing: 1px; 
+    line-height: 1.2; 
+}
+  
+ 
