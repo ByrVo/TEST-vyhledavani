@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google search</title>
+  <link rel="stylesheet" href="styl.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <h1>Vyhledávač</h1>
+  
+  <input type="text" id="searchInput" placeholder="Zadejte hledaný výraz">
+  <button onclick="search()">Vyhledat</button>
+  <button type="button" onclick="downloadPDF()">Stáhnout PDF</button>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+  <script src="download.js"></script>
+  
+</body>
+</html>     
